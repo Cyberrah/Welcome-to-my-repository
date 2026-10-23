@@ -5,6 +5,10 @@ I am building practical cybersecurity experience through home labs and simulated
 
 [LinkedIn](https://www.linkedin.com/in/abdul-rahman-sesay-064ba0377) · [GitHub](https://github.com/Cyberrah)
 
+## Reviewer guide
+
+[Start with the portfolio reviewer guide](REVIEWER_GUIDE.md) for a short route through the strongest evidence and the status of each project.
+
 ## Featured investigation: Splunk and Suricata telemetry pipeline
 
 A three-VM VirtualBox lab using the fictional **Kestrel Logistics Group** case study. The published investigation documents Windows and Ubuntu log collection, Suricata EVE JSON ingestion, a scheduled Windows failed-logon detection, and SSH correlation across host and network records.

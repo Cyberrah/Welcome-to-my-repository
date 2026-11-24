@@ -10,13 +10,13 @@
 | 2. Examine an investigation | [SSH timeline](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/blob/main/docs/ssh-investigation.md) | Timestamp normalisation, source-port matching and interpretation of encrypted traffic |
 | 3. Review a detection | [Windows alert search](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/blob/main/detections/windows-five-failures.spl) and [settings](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/blob/main/detections/README.md) | Threshold, extraction assumptions and repeat-alert limitations |
 | 4. Inspect reporting | [SOC report](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/blob/main/reports/Kestrel_SOC_Investigation_Report.pdf) | Evidence, findings and coverage limits |
-| 5. Review validation planning | [Six-detection test matrix](https://github.com/Cyberrah/Splunk-SOC-Home-Lab/blob/main/splunk-soc-home-lab/docs/detection-validation-matrix.md) | Positive/negative cases, boundaries and test provenance |
-| 6. Review phishing judgement | [Phishing evidence assessment](https://github.com/Cyberrah/Phishing-Email-Analysis/blob/main/Phishing_Email_Analysis_Portfolio/docs/evidence-assessment.md) | Facts versus hypotheses and investigation gaps |
+| 5. Review phishing triage | [MediSure analyst handoff](https://github.com/Cyberrah/Strengthening-Cyber-Resilience-through-Phishing-Email-Investigation-and-Response-in-Healthcare-#7-report-and-hand-off) | Email authentication, link and attachment findings, impact gaps and escalation |
+| 6. Verify remediation | [Meridian vulnerability register](https://github.com/Cyberrah/Vulnerability-Management-Lifecycle-Scanning-Documenting-and-Remediating-with-Greenbone-OpenVAS/blob/main/reports/vulnerability-register.csv) and [final scan](https://github.com/Cyberrah/Vulnerability-Management-Lifecycle-Scanning-Documenting-and-Remediating-with-Greenbone-OpenVAS/blob/main/evidence/scans/06-post-ssb-mitigation.pdf) | Finding-level closure and remaining scanner results |
 
 ## Evidence maturity
 
 - **Observed lab results:** Kestrel collection, Windows alert validation, controlled ICMP alerts and SSH correlation, supported by the published report and screenshots.
-- **Reusable examples:** The separate Windows lab's six SPL searches and dashboard template; complete per-search execution records are still pending.
+- **Verified remediation:** Meridian authenticated rescans support closure of four targeted findings. The repository labels the published Ansible playbooks as reconstructions.
 - **Educational simulation:** Phishing sample, indicators, walkthrough and report.
 - **Proposed work:** New validation cases and reproduction checklists. These are plans, not additional completed investigations.
 

@@ -22,11 +22,11 @@ In a three-VM VirtualBox lab, I ingested Windows and Ubuntu logs alongside Suric
 
 ## Project portfolio
 
-| Project | What to review | Evidence status |
+| Project | What I did | Evidence |
 | --- | --- | --- |
-| [Kestrel SOC lab](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata) | Splunk and Suricata telemetry pipeline, Windows alerting and SSH correlation | Observed lab results |
-| [Splunk SOC Home Lab](https://github.com/Cyberrah/Splunk-SOC-Home-Lab) | Six SPL searches, forwarder configuration and a Windows authentication dashboard template | Reusable assets. Per-search testing is pending |
-| [Phishing Email Analysis](https://github.com/Cyberrah/Phishing-Email-Analysis) | Email header analysis, SPF/DKIM/DMARC, IOC documentation and MITRE ATT&CK mapping | Educational simulation |
+| [Kestrel SOC Lab](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata) | Validated a Splunk alert for repeated Windows logon failures and correlated SSH authentication with Suricata flows. | [SSH investigation timeline](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/blob/main/docs/ssh-investigation.md) |
+| [MediSure Phishing Investigation](https://github.com/Cyberrah/Strengthening-Cyber-Resilience-through-Phishing-Email-Investigation-and-Response-in-Healthcare-) | Triaged a simulated vendor-invoice email, compared payment destinations and documented the evidence needed to assess impact. | [Analyst handoff](https://github.com/Cyberrah/Strengthening-Cyber-Resilience-through-Phishing-Email-Investigation-and-Response-in-Healthcare-#7-report-and-hand-off) |
+| [Meridian Vulnerability Management](https://github.com/Cyberrah/Vulnerability-Management-Lifecycle-Scanning-Documenting-and-Remediating-with-Greenbone-OpenVAS) | Used Greenbone and Ansible to assess and remediate an Ubuntu server, then verified four targeted findings with authenticated rescans. | [Final verification scan](https://github.com/Cyberrah/Vulnerability-Management-Lifecycle-Scanning-Documenting-and-Remediating-with-Greenbone-OpenVAS/blob/main/evidence/scans/06-post-ssb-mitigation.pdf) |
 
 ## Tools and techniques
 
@@ -38,7 +38,8 @@ In a three-VM VirtualBox lab, I ingested Windows and Ubuntu logs alongside Suric
 - [Log source inventory](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/blob/main/inventory/Kestrel_Log_Source_Inventory.xlsx)
 - [Kestrel evidence register](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/blob/main/docs/evidence-register.md)
 - [Splunk detection searches and alert settings](https://github.com/Cyberrah/Log-Analysis-Pipeline-Ingesting-and-Analysing-Security-Telemetry-with-Splunk-Enterprise-and-Suricata/tree/main/detections)
-- [Phishing evidence assessment](https://github.com/Cyberrah/Phishing-Email-Analysis/blob/main/Phishing_Email_Analysis_Portfolio/docs/evidence-assessment.md)
+- [MediSure phishing lookup evidence](https://github.com/Cyberrah/Strengthening-Cyber-Resilience-through-Phishing-Email-Investigation-and-Response-in-Healthcare-#investigation-screenshots)
+- [Meridian vulnerability register](https://github.com/Cyberrah/Vulnerability-Management-Lifecycle-Scanning-Documenting-and-Remediating-with-Greenbone-OpenVAS/blob/main/reports/vulnerability-register.csv)
 
 These projects cover controlled home-lab tests and educational simulations. The reviewer guide explains the scope and evidence for each project.
 
